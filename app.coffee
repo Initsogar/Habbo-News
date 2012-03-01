@@ -16,7 +16,7 @@ app.use stylus.middleware
 app.set 'view engine', 'jade'
  
 app.get '/', (request, response) ->
-  response.render 'index', { pageTitle: 'Express with Coffee' }
+  response.render 'index', { pageTitle: 'Habbo News' }
  
 app.listen 3000
 console.log "Express server listening on port %d", app.address().port

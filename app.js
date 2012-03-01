@@ -23,7 +23,7 @@
 
   app.get('/', function(request, response) {
     return response.render('index', {
-      pageTitle: 'Express with Coffee'
+      pageTitle: 'Habbo News'
     });
   });
 
