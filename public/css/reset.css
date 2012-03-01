@@ -1,0 +1,67 @@
+body {
+  font: 12px/1.25 Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:focus,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+p {
+  margin: 0 0 1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 10px;
+}
+h1 {
+  font-size: 2em;
+}
+label {
+  cursor: pointer;
+  font-weight: bold;
+}
+input,
+textarea {
+  border: 2px solid #ccc;
+  font: 12px/1 Helvetica, Arial, sans-serif;
+  margin: 0 0 15px;
+  padding: 5px;
+  width: 160px;
+rgba(204,204,204,0.20)
+}
+textarea {
+  height: 115px;
+  resize: none;
+  width: 260px;
+}
+button {
+  border: 0;
+  cursor: pointer;
+  font: bold 12px/1 Helvetica, Arial, sans-serif;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+}
+button::-moz-focus-inner {
+  border: none;
+}
+button span {
+  display: block;
+  position: relative;
+  white-space: nowrap;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  button span {
+    margin-top: -1px;
+  }
+}
